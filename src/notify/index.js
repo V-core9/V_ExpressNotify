@@ -7,12 +7,13 @@ module.exports = (data) => {
   notifier.notify(
     {
       appID: "V-core9 Notify",
-      title: "Welcome " + process.env.USERNAME,
+      title: "New Message",
       message:JSON.stringify(data),
       sound: "Funk",
       // case sensitive
       wait: true,
-      icon: path.join(__dirname, "images/test.gif"),
+      //icon: path.join(__dirname, "images/test.gif"),
+      icon: path.join(__dirname, 'images/LOGO.ALT.png'),
       contentImage: path.join(__dirname, "images/test.gif"),
       open: "file://" + path.join(__dirname, "images/test.gif"),
     },

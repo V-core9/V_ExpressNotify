@@ -7,7 +7,8 @@ notifier.notify(
     app:"YEA",
     title: "YEA",
     message: 'Are you sure you want to continue?',
-    icon: path.join(__dirname, 'images/test.gif'),
+    // icon: path.join(__dirname, 'images/test.gif'),
+    icon: path.join(__dirname, 'images/V-core9.logo.medium.jpg'),
     actions: ['OK', 'Cancel'],
   },
   (err, data) => {
